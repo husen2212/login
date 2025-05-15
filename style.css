@@ -1,0 +1,256 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* CSS Document */
+body {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+.utama {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: rgb(206, 229, 229);
+    box-sizing: border-box;
+}
+
+.selamat {
+    width: 100%;
+    font-size: 1.5em;
+    padding: 2em 1em;
+    text-align: center;
+    text-shadow: 5px 5px 5px #67c5ee, -5px -5px 5px #d26969;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.registrasi {
+    width: 80%;
+    padding: 2em 1em;
+    box-sizing: border-box;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    display: none;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 1.9em;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+a:hover {
+    background-color: #67c5ee;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.login {
+    width: 80%;
+    padding: 2em 1em;
+    box-sizing: border-box;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    /* display: none; */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.conten {
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 2em;
+    line-height: 1.5em;
+    word-spacing: 1px;
+    text-align: center;
+    padding: 2em 1em;
+    background-color: rgb(7, 247, 247);
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow: hidden;
+    text-shadow: 5px 5px 5px #67c5ee, -5px -5px 5px #d26969;
+    color: #333;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    animation: box-shadow 1s linear infinite alternate;
+}
+
+@keyframes box-shadow {
+    0% {
+        box-shadow: 10px 10px 5px #02e03e, -10px -10px 5px #d26969, 10px 10px 15px 15px #06dbf7, -10px -10px 5px #95f506e1, 15px 15px 5px #d26969, -15px -15px 5px #aedc15;
+    }
+
+    100% {
+        box-shadow: -10px -10px 5px #04f444, 10px 10px 5px #d26969, -10px -10px 15px 15px #67c5ee, 10px 10px 5px #03d1e8e1, -15px -15px 5px #d26969, 15px 15px 5px #aedc15;
+    }
+}

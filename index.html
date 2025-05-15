@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sesi_5 cuy university</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--rgistrasi & login-->
+    <div class="utama">
+            <h1 class="selamat">SELAMATA DATANG DI GABUT.COM</h1>
+        <div class="registrasi" id="register">
+            <h1>Registrasi</h1>
+            <form onsubmit="register(event)">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" minlength="3" required>
+
+                <label for="email">Emal:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password" >Password:</label>
+                <input type="password" id="password" name="password" minlength="3" required>
+
+                <button type="submit">Daftar</button>
+                <p>Sudah punya akun? <a href="#login" id="masuk" onclick="masuk()">Masuk</a></p>
+            </form>
+        </div>
+        <div class="login" id="login">
+            <h1>login</h1>
+            <form onsubmit="login(event)">
+                <label for="username">Username:</label>
+                <input type="text" id="nama" name="username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="pw" name="password" required>
+
+                <button type="submit">Masuk</button>
+                <p>Belum punya akun? <a href="#register" id="daftar" onclick="daftar()">Daftar</a></p>
+            </form>
+        </div>
+    </div>
+    <!--end regsitrasi & login-->
+    <!-- javascript -->
+    <script type="application/javascript" src="otak.js">
+    </script>
+    <!-- END javascript -->
+</body>
+
+</html>
